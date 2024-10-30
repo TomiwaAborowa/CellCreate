@@ -8,13 +8,14 @@ function Home() {
 <div className="bg-[url('bgbrown.jpg')] bg-contain h-screen w-screen flex flex-col justify-center items-center">      
    <div className="bg-contain bg-right mix-blend bg-no-repeat h-screen w-screen bg-[url('pic1.png')]">
 
-  <div className="text-center p-6 md:p-10 ">
+  <div className="text-center p-3 ">
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center my-8">
   <span className="block font-greatVibes text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-neutral-800">
     Welcome to
   </span>
   <span className="block bg-clip-text text-transparent bg-gradient-to-r from-amber-50 to-gray-50">
-    ANORA CELL GROUP
+    ANORA 
+    CELL <br />GROUP
   </span>
 </h1>
 
