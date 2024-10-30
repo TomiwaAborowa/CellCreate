@@ -21,7 +21,9 @@ export default {
           },
         },
       },
-
+      fontFamily: {
+        greatVibes: ['"Great Vibes"', 'cursive'],
+      },
     },
   },
   plugins: [],

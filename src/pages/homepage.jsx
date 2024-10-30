@@ -10,14 +10,16 @@ function Home() {
 
   <div className="text-center p-10 ">
   <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center my-8">
-  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-neutral-800">
+  <span className="block font-greatVibes text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-neutral-800">
     Welcome to
   </span>
   <span className="block bg-clip-text text-transparent bg-gradient-to-r from-amber-50 to-gray-50">
     ANORA CELL GROUP
   </span>
 </h1>
-<p className="mt-4 text-2xl md:text-xl text-amber-200 font-bold">
+<br />
+<br />
+<p className="mt-24 text-2xl md:text-xl text-amber-200 font-bold">
     Join a cell today !!!
   </p>
    
