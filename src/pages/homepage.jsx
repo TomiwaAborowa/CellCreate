@@ -5,11 +5,11 @@ function Home() {
    
 <>
 
-<div className="bg-[url('bgbrown.jpg')] bg-contain">      
+<div className="bg-[url('bgbrown.jpg')] bg-contain h-screen w-screen flex flex-col justify-center items-center">      
    <div className="bg-contain bg-right mix-blend bg-no-repeat h-screen w-screen bg-[url('pic1.png')]">
 
-  <div className="text-center p-10 ">
-  <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center my-8">
+  <div className="text-center p-6 md:p-10 ">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center my-8">
   <span className="block font-greatVibes text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-neutral-800">
     Welcome to
   </span>
@@ -18,7 +18,7 @@ function Home() {
   </span>
 </h1>
 
-<p className="mt-40 text-xl text-right md:text-center text-amber-200 font-bold">
+<p className="mt-64 sm:mt-12 md:mt-16 text-lg md:text-xl text-center text-amber-200 font-bold">
     Join a cell today !!!
   </p>
    
@@ -34,7 +34,7 @@ function Home() {
       <div className="flex mt-48 items-center justify-center gap-x-6 lg:justify-start ">
         <button
           type="button"
-          className="inline-flex items-center rounded-md sm:mx-auto hover:bg-amber-800 bg- px-3 py-2 font-bold text-gray-950 shadow-sm ring-1 ring-inset ring-gray-800"
+          className="inline-flex items-center rounded-md sm:mx-auto hover:bg-amber-800 bg- px-3 py-2 font-bold text-xl text-gray-50 shadow-sm ring-1 ring-inset ring-gray-50"
         >
 
   <Link
