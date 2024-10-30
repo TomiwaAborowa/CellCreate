@@ -34,13 +34,13 @@ function MyForm() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="p-12 shadow-2xl bg-gradient-to-r from-slate-500 to-slate-500 rounded-md">
+    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-red-500 to-orange-500">
+      <div className="p-12 shadow-2xl bg-gradient-to-r from-amber-500 to-pink-500 rounded-md">
         <form className="w-full max-w-md" onSubmit={handleSubmit}>
-          <p className="text-white font-bold text-2xl">REGISTRATION</p>
+          <p className="text-white font-bold text-2xl">REGISTRATION FORM</p>
           <hr className="mt-2" />
-          <p className="text-white font-medium">Reach out to this number via Whatsapp for your Cell placement:</p>
-          <p className="text-white font-bold">+2348160378182</p>
+          <p className="animate-text bg-gradient-to-r from-gray-200 via-gray-800 to-gray-200 bg-clip-text text-transparent font-black">Reach out to this number via Whatsapp for your Cell placement:</p>
+          <p className="font-bold text-gray-950 ">+2348160378182</p>
           <hr className="mt-3" />
           <div>
             <label className="block text-white font-semibold text-2xl mb-1 mt-2">
