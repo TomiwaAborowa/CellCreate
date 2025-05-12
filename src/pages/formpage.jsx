@@ -40,7 +40,7 @@ function MyForm() {
           <p className="text-white font-bold text-2xl">REGISTRATION FORM</p>
           <hr className="mt-2" />
           <p className="animate-text bg-gradient-to-r from-gray-200 via-gray-800 to-gray-200 bg-clip-text text-transparent font-black">Reach out to this number via Whatsapp for your Cell placement:</p>
-          <p className="font-bold text-gray-950 ">+2348160378182</p>
+          <p className="font-bold text-gray-950 ">+2349138137348</p>
           <hr className="mt-3" />
           <div>
             <label className="block text-white font-semibold text-2xl mb-1 mt-2">
